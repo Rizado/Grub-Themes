@@ -1,0 +1,38 @@
+# GRUB2 gfxmenu Linux theme
+# Maine-coon theme
+
+desktop-image: "maine-coon.jpg"
+desktop-color: "#000000"
+desktop-image-scale-method: "padding"
+
+title-font: "Ubuntu Regular 48"
+title-color: "#cccccc"
+
+terminal-font: "Terminus Regular 14"
+
++ boot_menu {
+    left = 50%-350
+    width = 700
+    top = 50%-200
+    height = 450
+    icon_width = 24
+    icon_height = 24
+    item_height = 30
+    item_padding = 1
+    item_icon_space = 5
+    item_spacing = 20
+    item_font = "Ubuntu Regular 24"
+    item_color = "#cccccc"
+    selected_item_color = "#cc0000"
+}
+
++ label {
+    font = "Ubuntu Regular 16"
+    left = 50%-350
+    top = 95%
+    height = 25
+    width = 700
+    align = "center"
+    color = "#cccccc"
+    text = "@KEYMAP_SHORT@"
+}
